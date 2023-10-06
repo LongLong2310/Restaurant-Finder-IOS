@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		367C0F7A2A6E397A00C3F296 /* restaurant_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0F792A6E397A00C3F296 /* restaurant_finderApp.swift */; };
-		367C0F7C2A6E397A00C3F296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0F7B2A6E397A00C3F296 /* ContentView.swift */; };
 		367C0F7E2A6E398000C3F296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367C0F7D2A6E398000C3F296 /* Assets.xcassets */; };
 		367C0F812A6E398000C3F296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367C0F802A6E398000C3F296 /* Preview Assets.xcassets */; };
 		367C0F8B2A6E398000C3F296 /* restaurant_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0F8A2A6E398000C3F296 /* restaurant_finderTests.swift */; };
 		367C0F952A6E398000C3F296 /* restaurant_finderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0F942A6E398000C3F296 /* restaurant_finderUITests.swift */; };
 		367C0F972A6E398000C3F296 /* restaurant_finderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0F962A6E398000C3F296 /* restaurant_finderUITestsLaunchTests.swift */; };
+		369420F12A7C0B7F00BE8190 /* restaurant-finder-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 369420F02A7C0B7F00BE8190 /* restaurant-finder-info.plist */; };
+		36A082BD2A76357F00A35E71 /* MapViewWithPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A082BC2A76357F00A35E71 /* MapViewWithPin.swift */; };
+		36E6B5102A7110C100AB09A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B50F2A7110C100AB09A0 /* ContentView.swift */; };
+		36E6B5122A71178F00AB09A0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5112A71178F00AB09A0 /* WelcomeView.swift */; };
+		36E6B5142A7117C500AB09A0 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5132A7117C500AB09A0 /* GreetingView.swift */; };
+		36E6B5182A711A9E00AB09A0 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5172A711A9E00AB09A0 /* RestaurantListView.swift */; };
+		36E6B51F2A718EC500AB09A0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B51B2A718EC500AB09A0 /* ModelData.swift */; };
+		36E6B5202A718EC500AB09A0 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E6B51C2A718EC500AB09A0 /* restaurants.json */; };
+		36E6B5212A718EC500AB09A0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B51D2A718EC500AB09A0 /* Restaurant.swift */; };
+		36E6B5232A7231AC00AB09A0 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5222A7231AC00AB09A0 /* RestaurantRow.swift */; };
+		36E6B5252A723C5A00AB09A0 /* RestaurantCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6B5242A723C5A00AB09A0 /* RestaurantCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		367C0F762A6E397A00C3F296 /* restaurant finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "restaurant finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C0F792A6E397A00C3F296 /* restaurant_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurant_finderApp.swift; sourceTree = "<group>"; };
-		367C0F7B2A6E397A00C3F296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		367C0F7D2A6E398000C3F296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		367C0F802A6E398000C3F296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		367C0F862A6E398000C3F296 /* restaurant finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "restaurant finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,17 @@
 		367C0F902A6E398000C3F296 /* restaurant finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "restaurant finderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C0F942A6E398000C3F296 /* restaurant_finderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurant_finderUITests.swift; sourceTree = "<group>"; };
 		367C0F962A6E398000C3F296 /* restaurant_finderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurant_finderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		369420F02A7C0B7F00BE8190 /* restaurant-finder-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "restaurant-finder-info.plist"; sourceTree = "<group>"; };
+		36A082BC2A76357F00A35E71 /* MapViewWithPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewWithPin.swift; sourceTree = "<group>"; };
+		36E6B50F2A7110C100AB09A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36E6B5112A71178F00AB09A0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		36E6B5132A7117C500AB09A0 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		36E6B5172A711A9E00AB09A0 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		36E6B51B2A718EC500AB09A0 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		36E6B51C2A718EC500AB09A0 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		36E6B51D2A718EC500AB09A0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		36E6B5222A7231AC00AB09A0 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
+		36E6B5242A723C5A00AB09A0 /* RestaurantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +114,12 @@
 		367C0F782A6E397A00C3F296 /* restaurant finder */ = {
 			isa = PBXGroup;
 			children = (
+				36E6B5192A718EC500AB09A0 /* Model */,
+				36E6B50C2A71106E00AB09A0 /* View */,
 				367C0F792A6E397A00C3F296 /* restaurant_finderApp.swift */,
-				367C0F7B2A6E397A00C3F296 /* ContentView.swift */,
 				367C0F7D2A6E398000C3F296 /* Assets.xcassets */,
 				367C0F7F2A6E398000C3F296 /* Preview Content */,
+				369420F02A7C0B7F00BE8190 /* restaurant-finder-info.plist */,
 			);
 			path = "restaurant finder";
 			sourceTree = "<group>";
@@ -125,6 +147,30 @@
 				367C0F962A6E398000C3F296 /* restaurant_finderUITestsLaunchTests.swift */,
 			);
 			path = "restaurant finderUITests";
+			sourceTree = "<group>";
+		};
+		36E6B50C2A71106E00AB09A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36E6B50F2A7110C100AB09A0 /* ContentView.swift */,
+				36E6B5112A71178F00AB09A0 /* WelcomeView.swift */,
+				36E6B5132A7117C500AB09A0 /* GreetingView.swift */,
+				36E6B5172A711A9E00AB09A0 /* RestaurantListView.swift */,
+				36E6B5242A723C5A00AB09A0 /* RestaurantCard.swift */,
+				36A082BC2A76357F00A35E71 /* MapViewWithPin.swift */,
+				36E6B5222A7231AC00AB09A0 /* RestaurantRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36E6B5192A718EC500AB09A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36E6B51B2A718EC500AB09A0 /* ModelData.swift */,
+				36E6B51C2A718EC500AB09A0 /* restaurants.json */,
+				36E6B51D2A718EC500AB09A0 /* Restaurant.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				367C0F812A6E398000C3F296 /* Preview Assets.xcassets in Resources */,
+				369420F12A7C0B7F00BE8190 /* restaurant-finder-info.plist in Resources */,
+				36E6B5202A718EC500AB09A0 /* restaurants.json in Resources */,
 				367C0F7E2A6E398000C3F296 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				367C0F7C2A6E397A00C3F296 /* ContentView.swift in Sources */,
+				36E6B5102A7110C100AB09A0 /* ContentView.swift in Sources */,
+				36E6B5142A7117C500AB09A0 /* GreetingView.swift in Sources */,
+				36E6B5182A711A9E00AB09A0 /* RestaurantListView.swift in Sources */,
+				36E6B5212A718EC500AB09A0 /* Restaurant.swift in Sources */,
+				36A082BD2A76357F00A35E71 /* MapViewWithPin.swift in Sources */,
+				36E6B5122A71178F00AB09A0 /* WelcomeView.swift in Sources */,
+				36E6B5252A723C5A00AB09A0 /* RestaurantCard.swift in Sources */,
 				367C0F7A2A6E397A00C3F296 /* restaurant_finderApp.swift in Sources */,
+				36E6B5232A7231AC00AB09A0 /* RestaurantRow.swift in Sources */,
+				36E6B51F2A718EC500AB09A0 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +476,7 @@
 				DEVELOPMENT_TEAM = BPJ6GU359Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "restaurant-finder-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +506,7 @@
 				DEVELOPMENT_TEAM = BPJ6GU359Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "restaurant-finder-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

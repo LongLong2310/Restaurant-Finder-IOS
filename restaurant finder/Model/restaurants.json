@@ -1,0 +1,269 @@
+[
+    {
+      "id": 1,
+      "imageName": "restaurant1",
+      "name": "Diva Cafe",
+      "category": "cafe",
+      "description": "'Bar - Bistro' 'Le Cafe'. An attractive store with delicious food, local bear and good wine.",
+      "city": "Ho Chi Minh",
+      "foods": ["res-food-1", "res-food-2", "res-food-3", "res-food-4"],
+      "rateNumber": "4.9",
+      "rateAmount": "159",
+      "favorite": true,
+      "time": "10AM-10PM",
+      "distance": "1.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.729410965174186,
+          "longitude": 106.69522548892152
+      }
+    },
+    {
+      "id": 2,
+      "imageName": "restaurant2",
+      "name": "ABC Bakery",
+      "category": "bakery",
+      "description": "ABC Bakery & Cafe in District 1 is famous for affordable, high-quality European treats like croissants and cheesecake slices",
+      "city": "Ho Chi Minh",
+      "foods": ["bak-food-1", "bak-food-2", "res-food-3", "veg-food-4"],
+      "rateNumber": "4.5",
+      "rateAmount": "139",
+      "favorite": false,
+      "time": "9AM-9PM",
+      "distance": "2 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.758256325746386,
+          "longitude": 106.67228491141948 
+      }
+    },
+    {
+      "id": 3,
+      "imageName": "restaurant3",
+      "name": "Givral Bakery",
+      "category": "bakery",
+      "description": "Givral Bakery: French pastries, phở hotspot in Ho Chi Minh City. Historic Đồng Khởi street site popular with journalists",
+      "city": "Ho Chi Minh",
+      "foods": ["bak-food-1", "bak-food-2", "res-food-3", "veg-food-4"],
+      "rateNumber": "3.9",
+      "rateAmount": "119",
+      "favorite": true,
+      "time": "9AM-9PM",
+      "distance": "2.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.786710386116287,
+          "longitude": 106.73818415444727
+      }
+    },
+    {
+      "id": 4,
+      "imageName": "restaurant4",
+      "name": "Buddha Chay",
+      "category": "vegetarian",
+      "category": "cafe",
+      "description": "Buddha Chay is an excellent place to eat vegetarian food in Ho Chi Minh.",
+      "city": "Ho Chi Minh",
+      "foods": ["veg-food-1", "veg-food-2", "veg-food-3", "veg-food-4"],
+      "rateNumber": "4.2",
+      "rateAmount": "121",
+      "favorite": true,
+      "time": "9AM-9PM",
+      "distance": "2.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.79437079611712,
+          "longitude": 106.80394039521534 
+      }
+    },
+    {
+      "id": 5,
+      "imageName": "restaurant5",
+      "name": "Saiigon Lão Quạ",
+      "category": "cafe",
+      "description": "Saigon Lão Quạ Coffee: Beloved HCMC café. Cozy interior, adorned with Hollywood vintage posters and memorabilia.",
+      "city": "Ho Chi Minh",
+      "foods": ["res-food-1", "res-food-2", "res-food-3", "res-food-4"],
+      "rateNumber": "3.6",
+      "rateAmount": "132",
+      "favorite": false,
+      "time": "9AM-9PM",
+      "distance": "3.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.870169083568735,
+          "longitude": 106.76307939055084  
+      }
+    },
+    {
+      "id": 6,
+      "imageName": "restaurant6",
+      "name": "Hum Vegetarian",
+      "category": "vegetarian",
+      "description": "At Hum Vegetarian, diners can find many vegetarian dishes made from mushrooms, tofu, bean, etc.",
+      "city": "Ho Chi Minh",
+      "foods": ["veg-food-1", "veg-food-2", "veg-food-3", "veg-food-4"],
+      "rateNumber": "4.5",
+      "rateAmount": "132",
+      "favorite": true,
+      "time": "9AM-10PM",
+      "distance": "4.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.949713377874208,
+          "longitude": 106.8479555990988
+      }
+    },
+    {
+      "id": 7,
+      "imageName": "restaurant7",
+      "name": "Phuc Long",
+      "category": "cafe",
+      "description": "Phuc Long Coffee & Tea: Stylish, unique drinks. Carefully selected teas and coffee. Pure Vietnamese coffee. Visit or take home.",
+      "city": "Ho Chi Minh",
+      "foods": ["res-food-1", "res-food-2", "res-food-3", "res-food-4"],
+      "rateNumber": "4.4",
+      "rateAmount": "101",
+      "favorite": false,
+      "time": "9AM-10PM",
+      "distance": "5.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 11.04578475693659,
+          "longitude": 106.58373092288061
+      }
+    },
+    {
+      "id": 8,
+      "imageName": "restaurant8",
+      "name": "Cong Cafe",
+      "category": "cafe",
+      "description": "Cong Cafe: Special Vietnamese coffee shop. Recreates 70s-80s military space. Nostalgic items from Vietnam's subsidy period.",
+      "city": "Ho Chi Minh",
+      "foods": ["res-food-1", "res-food-2", "res-food-3", "res-food-4"],
+      "rateNumber": "4.1",
+      "rateAmount": "164",
+      "favorite": false,
+      "time": "9AM-10PM",
+      "distance": "4.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.803071448238558,
+          "longitude": 106.64427589071033
+      }
+    },
+    {
+      "id": 9,
+      "imageName": "restaurant9",
+      "name": "Pizza 4P’s",
+      "category": "vegetarian",
+      "description": "Pizza 4P's isn't specialized in vegetarian or vegan food, but it still offers excellent options for vegetarians.",
+      "city": "Ho Chi Minh",
+      "foods": ["veg-food-1", "veg-food-2", "veg-food-3", "veg-food-4"],
+      "rateNumber": "4.0",
+      "rateAmount": "112",
+      "favorite": false,
+      "time": "9AM-10PM",
+      "distance": "1.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.781771420238698,
+          "longitude": 106.6306334151885
+      }
+    },
+    {
+      "id": 10,
+      "imageName": "restaurant10",
+      "name": "Starbucks",
+      "category": "cafe",
+      "description": "Starbucks: Not just coffee, but an experience. High-quality service. Embracing local culture and environment.",
+      "city": "Ho Chi Minh",
+      "foods": ["res-food-1", "res-food-2", "res-food-3", "res-food-4"],
+      "rateNumber": "4.7",
+      "rateAmount": "184",
+      "favorite": true,
+      "time": "9AM-10PM",
+      "distance": "1.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.745642963019284,
+          "longitude": 106.57460623743862
+      }
+    },
+    {
+      "id": 11,
+      "imageName": "restaurant11",
+      "name": "Rice Field ",
+      "category": "vegetarian",
+      "description": "Cozy indoor & countryside touch with rice field on its rooftop where you can enjoy the view of Bitexco",
+      "city": "Ho Chi Minh",
+      "foods": ["veg-food-1", "veg-food-2", "veg-food-3", "veg-food-4"],
+      "rateNumber": "4.4",
+      "rateAmount": "172",
+      "favorite": true,
+      "time": "10AM-10PM",
+      "distance": "1.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.642054789728482,
+          "longitude": 106.43875526875854
+      }
+    },
+    {
+      "id": 12,
+      "imageName": "restaurant12",
+      "name": "Li Bai",
+      "category": "chinese",
+      "description": "First visit? Chinese restaurant vibes with modern, impressive decor.",
+      "city": "Ho Chi Minh",
+      "foods": ["chi-food-1", "chi-food-2", "chi-food-3", "chi-food-4"],
+      "rateNumber": "4.3",
+      "rateAmount": "184",
+      "favorite": true,
+      "time": "10AM-10PM",
+      "distance": "2.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 10.23862895243684,
+          "longitude": 106.3776103458168
+      }
+    },
+    {
+      "id": 13,
+      "imageName": "restaurant13",
+      "name": "Haidilao",
+      "category": "chinese",
+      "description": "Haidilao: Popular Chinese hotpot brand now in Vietnam. Wide variety of options, but prices are high, so choose carefully.",
+      "city": "Ho Chi Minh",
+      "foods": ["chi-food-1", "chi-food-2", "chi-food-3", "chi-food-4"],
+      "rateNumber": "4.6",
+      "rateAmount": "186",
+      "favorite": false,
+      "time": "10AM-10PM",
+      "distance": "1.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 9.991073220047838,
+          "longitude": 106.0169751879182 
+      }
+    },
+    {
+      "id": 14,
+      "imageName": "restaurant14",
+      "name": "San Fu Lou",
+      "category": "chinese",
+      "description": "The restaurant itself is committed to providing great-tasting food with healthy cooking techniques and hygiene.",
+      "city": "Ho Chi Minh",
+      "foods": ["chi-food-1", "chi-food-2", "chi-food-3", "chi-food-4"],
+      "rateNumber": "4.3",
+      "rateAmount": "114",
+      "favorite": false,
+      "time": "10AM-10PM",
+      "distance": "4.5 KM",
+      "delivery": "DELIVERY",
+      "coordinates": {
+          "latitude": 11.940952669293084,
+          "longitude": 108.45964507946036
+      }
+    }
+]
